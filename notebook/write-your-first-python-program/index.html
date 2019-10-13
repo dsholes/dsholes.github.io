@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/atom-one-light.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://dsholes.github.io/theme/css/main.css">
+    <script> hljs.initHighlightingOnLoad(); </script>
+
+    <title>Write your first Python program</title>
+</head>
+<body class="site">
+    <header>
+        <div class="navBar" id="mainNavBar">
+          <a class="navTitle" href="https://dsholes.github.io/about">Darren Sholes</a>
+          <a class="navItem" href="https://dsholes.github.io/notebook/">Notebook</a>
+          <a class="navItem" target="_blank" rel="noopener noreferrer" href="https://dsholes.github.io/pdfs/DarrenSholesCv.pdf">CV</a>
+          <a class="icon" href="javascript:void(0);" onClick="openDrawerMenu()">
+              <svg class="svgMenu" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+              </svg>
+          </a>
+        </div>
+    </header>
+
+    <main class="siteContent">    <div class="bannerImage" style="background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+                                 url(https://dsholes.github.io//images/patagonia_5_orig.jpg);">
+    </div>
+
+    <div class="contentContainer">
+
+    <h1 class='articleTitle'> Write your first Python program </h1>
+
+    <div class="articleMetaData">
+        January 01, 2019
+        <hr>
+    </div>
+
+    <h1 id="background">Background</h1>
+<p>
+In the last post, we ran some very basic python code directly in a python interactive session. But what would a more realistic example of python code look like? To make our lives easier, the most basic thing we need is a text editor (not a word processor). This will allow us to write and save python code as a file with a <code>.py</code> file extension (e.g. <code>example_script.py</code>).
+</p>
+<h1 id="pick-a-text-editor">Pick a text editor</h1>
+<p>We could just use <code>Notepad</code> on Windows, <code>TextEdit</code> on Mac or the built in editor on Linux. But there are fancier text editors out there that use syntax highlighting and formatting to make it easier to read our code. Choose whatever text editor you want. </p>
+<p>Two free, cross-platform options are VS Code and Atom. VS Code was created by Microsoft. Atom was created by Github, which is now owned by Microsoft. To be extra confusing and hip, I currently use <a href="https://vscodium.com/">VS Codium</a>. </p>
+<p>If you don't care (you shouldn't), download and install <a href="https://code.visualstudio.com/">VS Code</a>. Then install the Python Extension for VS Code, to get syntax highlighting and other useful tools.</p>
+<h1 id="create-a-py-file">Create a <code>.py</code> file</h1>
+<p>Once you have a text editor installed, open it and create a new file. Save it with the <code>.py</code> file extension. When choosing a filename, I recommend keeping it short, and all lowercase. Use underscores if it improves readability (e.g. <code>example_script.py</code> is preferred, as opposed to <code>examplescript.py</code> or <code>Example Script.py</code>). I'll call mine <code>my_first.py</code>. You can save it wherever you want.</p>
+<h1 id="stay-organized">Stay organized</h1>
+<p>To stay organized, I recommend the following folder structure. Pick a location that you want to save all your scripts (e.g. your local home folder, <code>/home/yourname</code> in Linux, <code>C:\Users\yourname\</code> on Windows, or a folder on a network drive that gets backed up).</p>
+<p>Now create a new folder in that location named <code>repos</code>. Repos is short for Repositories, and this folder structure will be useful when we talk about <code>git</code> (in the future). Within <code>repos</code> create another folder named <code>python-examples</code>. The folder path will now look something like <code>C:\Users\user\repos\python-examples</code>. By the way, I will use the words <em>folder</em> and <em>directory</em> interchangeably.</p>
+<p>Save or copy <code>my_first.py</code> into <code>python-examples</code> for now. Open <code>my_first.py</code> and copy-paste the following lines:</p>
+<pre class="codehilite"><code class="language-python">x = 1
+y = 2
+z = x + y
+print(z)</code></pre>
+
+
+<p>Save <code>my_first.py</code>.</p>
+<h1 id="run-my_firstpy">Run <code>my_first.py</code></h1>
+<p>Open the command line. At this point, we can run <code>my_first.py</code> a couple of different ways. </p>
+<p>The first option does not require us to change the command line to the <code>python-examples</code> directory. Type <code>python</code> <strong>with a space after it</strong> and drag <code>my_first.py</code> onto the command line. This will copy the full path to the file. If you hit enter, the code in <code>my_first.py</code> will run.</p>
+<p>For the second option, we need to <code>cd</code> into the <code>python-examples</code> directory. If you don't know what that means, give it a quick google. After you <code>cd</code> into the same directory as <code>my_first.py</code>, you can simply type <code>python my_first.py</code> and hit enter.</p>
+<p>The important takeaway is that <code>python</code> needs to know exactly where the file is located before it can run it. That means you can either tell it the <em>absolute</em> path of the file, OR you can move the command line to where the file is located and tell python the <em>relative</em> path to the file.</p>
+
+    <div class="tagListing">
+        <span class="articleMetaData">Tags:</span>
+        <a href="https://dsholes.github.io/tag/atom/">atom</a>
+        <a href="https://dsholes.github.io/tag/python-for-everyone/">python-for-everyone</a>
+        <a href="https://dsholes.github.io/tag/vs-code/">vs-code</a>
+    </div>
+
+    <hr>
+
+         <p>
+             Previous post:
+             <a href="https://dsholes.github.io/notebook/run-your-first-python-code">
+                 Run your first Python code
+             </a>
+         </p>
+
+
+    </div>
+
+</main>
+
+    <footer>
+        <ul>
+          <!-- <li><a href="https://dsholes.github.io/index.html">Home</a></li> -->
+          <li><a href="https://dsholes.github.io">About</a></li>
+          <li><a href="https://dsholes.github.io/notebook/">Notebook</a></li>
+          <li><a href="https://dsholes.github.io/sitemap.xml">Sitemap</a></li>
+        </ul>
+        <div id=pelicanFooter>
+            Themed with
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/dsholes/pelican-hydrogen">
+                Hydrogen
+            </a>
+            by
+            <a target="_blank" rel="noopener noreferrer" href="https://dsholes.github.io/">
+                dsholes
+            </a>
+        </div>
+        <div id=pelicanFooter>
+            Powered by
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/getpelican/pelican">
+                Pelican
+            </a>
+        </div>
+    </footer>
+
+    <script>
+    function openDrawerMenu(){
+      var x = document.getElementById("mainNavBar");
+      if (x.className === "navBar"){
+        x.className += " responsive";
+      } else {
+        x.className = "navBar";
+      }
+    }
+    </script>
+
+</body>
+</html>
