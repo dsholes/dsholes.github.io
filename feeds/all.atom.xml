@@ -91,10 +91,10 @@ Before you can run any Python code, you have to install a Python interpreter on 
 &lt;p&gt;&lt;img alt="conda-test-install" src="https://dsholes.github.io/images/conda_test_install.PNG"&gt;
 - Type &lt;code&gt;python&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="python-test-install" src="https://dsholes.github.io/images/python_test_install.png"&gt;&lt;/p&gt;
-&lt;h1 id="issues"&gt;Issues?&lt;/h1&gt;
-&lt;p&gt;Hopefully, the two commands above didn't produce any error messages. If they did, copy-paste the message into Google. You will find the answer ;).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id="issues"&gt;Issues?&lt;/h1&gt;
+&lt;p&gt;Hopefully, the two commands above didn't produce any error messages. If they did, copy-paste the message into Google. You will find the answer ;).&lt;/p&gt;
 &lt;p&gt;If you get a message like &lt;code&gt;python&lt;/code&gt; or &lt;code&gt;conda&lt;/code&gt; command not recognized, then you most likely need to add your miniconda3 installation to your system Path.&lt;/p&gt;
 &lt;p&gt;By the way, learning a bit about the command line (Terminal/PowerShell) will be helpful as you start programming more. If you're interested in some details you can read this &lt;a href="https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101"&gt;primer for command line&lt;/a&gt;.  &lt;/p&gt;
 &lt;p&gt;Hopefully that wasn't too painful, and everything worked as expected. Let's &lt;a href="https://dsholes.github.io/notebook/run-your-first-python-code"&gt;run your first Python code&lt;/a&gt;.&lt;/p&gt;</content><category term="python-for-everyone"></category><category term="install"></category><category term="miniconda"></category><category term="anaconda"></category><category term="conda"></category></entry><entry><title>Python for Everyone: Introduction</title><link href="https://dsholes.github.io/notebook/python-for-everyone-introduction" rel="alternate"></link><published>2019-01-01T01:00:00+01:00</published><updated>2019-01-01T01:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-01-01:/notebook/python-for-everyone-introduction</id><summary type="html">
