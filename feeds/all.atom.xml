@@ -42,29 +42,29 @@ At this point you have successfully &lt;a href="https://dsholes.github.io/notebo
 &lt;ul&gt;
 &lt;li&gt;Your terminal should now look something like this:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="python-interpreter-1" src="../images/run_first_python_interpreter_1.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="python-interpreter-1" src="https://dsholes.github.io/images/run_first_python_interpreter_1.png"&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Type &lt;code&gt;x = 1&lt;/code&gt; and hit enter&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;You've just run your first python code!! Pretty anti-climactic, huh? It may seem like nothing happened. What you've done is created a variable &lt;code&gt;x&lt;/code&gt; and stored the integer &lt;code&gt;1&lt;/code&gt; in that variable.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="python-interpreter-2" src="../images/run_first_python_interpreter_2.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="python-interpreter-2" src="https://dsholes.github.io/images/run_first_python_interpreter_2.png"&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Type &lt;code&gt;y = 2&lt;/code&gt; and hit enter
-    &lt;img alt="python-interpreter-3" src="../images/run_first_python_interpreter_3.png"&gt;&lt;/p&gt;
+    &lt;img alt="python-interpreter-3" src="https://dsholes.github.io/images/run_first_python_interpreter_3.png"&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Type &lt;code&gt;z = x + y&lt;/code&gt; and hit enter&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;As I said in the intro article, if you understand basic algebraic concepts, then you can learn python. If &lt;code&gt;x = 1&lt;/code&gt; and &lt;code&gt;y = 2&lt;/code&gt;, what does &lt;code&gt;z&lt;/code&gt; equal?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="python-interpreter-4" src="../images/run_first_python_interpreter_4.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="python-interpreter-4" src="https://dsholes.github.io/images/run_first_python_interpreter_4.png"&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;To see what &lt;code&gt;z&lt;/code&gt; is now storing, type &lt;code&gt;print(z)&lt;/code&gt; and hit enter. Alternatively, you can just type &lt;code&gt;z&lt;/code&gt; and hit enter. Your terminal should now look like this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="python-interpreter-5" src="../images/run_first_python_interpreter_5.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="python-interpreter-5" src="https://dsholes.github.io/images/run_first_python_interpreter_5.png"&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;You've run your first python code! See, not so scary. One thing you may notice is there's no way to save the code that you've just written.&lt;/p&gt;
@@ -86,13 +86,15 @@ Before you can run any Python code, you have to install a Python interpreter on 
 &lt;h1 id="test-that-it-worked"&gt;Test that it worked&lt;/h1&gt;
 &lt;p&gt;Open the command line. On Windows open the &lt;code&gt;Command Prompt&lt;/code&gt;, and on macOS open &lt;code&gt;Terminal&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Type &lt;code&gt;conda info&lt;/code&gt;. 
-    &lt;img alt="conda-test-install" src="https://dsholes.github.io/images/conda_test_install.PNG"&gt;&lt;/li&gt;
-&lt;li&gt;Type &lt;code&gt;python&lt;/code&gt;.
-    &lt;img alt="python-test-install" src="https://dsholes.github.io/images/python_test_install.png"&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;Type &lt;code&gt;conda info&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="conda-test-install" src="https://dsholes.github.io/images/conda_test_install.PNG"&gt;
+- Type &lt;code&gt;python&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="python-test-install" src="https://dsholes.github.io/images/python_test_install.png"&gt;&lt;/p&gt;
 &lt;h1 id="issues"&gt;Issues?&lt;/h1&gt;
 &lt;p&gt;Hopefully, the two commands above didn't produce any error messages. If they did, copy-paste the message into Google. You will find the answer ;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;If you get a message like &lt;code&gt;python&lt;/code&gt; or &lt;code&gt;conda&lt;/code&gt; command not recognized, then you most likely need to add your miniconda3 installation to your system Path.&lt;/p&gt;
 &lt;p&gt;By the way, learning a bit about the command line (Terminal/PowerShell) will be helpful as you start programming more. If you're interested in some details you can read this &lt;a href="https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101"&gt;primer for command line&lt;/a&gt;.  &lt;/p&gt;
 &lt;p&gt;Hopefully that wasn't too painful, and everything worked as expected. Let's &lt;a href="https://dsholes.github.io/notebook/run-your-first-python-code"&gt;run your first Python code&lt;/a&gt;.&lt;/p&gt;</content><category term="python-for-everyone"></category><category term="install"></category><category term="miniconda"></category><category term="anaconda"></category><category term="conda"></category></entry><entry><title>Python for Everyone: Introduction</title><link href="https://dsholes.github.io/notebook/python-for-everyone-introduction" rel="alternate"></link><published>2019-01-01T01:00:00+01:00</published><updated>2019-01-01T01:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-01-01:/notebook/python-for-everyone-introduction</id><summary type="html">
