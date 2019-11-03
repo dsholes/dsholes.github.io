@@ -2,12 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://dsholes.github.io/notebook/write-your-first-python-program</loc>
+    <loc>https://dsholes.github.io/notebook/deployable-de-orbit-system-for-small-satellites</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://dsholes.github.io/notebook/run-your-first-python-code</loc>
+    <loc>https://dsholes.github.io/notebook/warpdrive-python-audio-sync-tool-using-dynamic-time-warping</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dsholes.github.io/notebook/particle-image-velocimetry-flame-brush-detection-tool</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dsholes.github.io/notebook/low-emission-lean-combustor</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dsholes.github.io/notebook/low-cost-heliostats</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dsholes.github.io/notebook/pocket-guitar-amplifier-little-gem</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dsholes.github.io/notebook/us-manufacturing-water-analysis-with-county-level-resolution</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dsholes.github.io/notebook/python-for-everyone-introduction</loc>
     <priority>0.8</priority>
   </url>
 
@@ -17,7 +47,12 @@
   </url>
 
   <url>
-    <loc>https://dsholes.github.io/notebook/python-for-everyone-introduction</loc>
+    <loc>https://dsholes.github.io/notebook/run-your-first-python-code</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dsholes.github.io/notebook/write-your-first-python-program</loc>
     <priority>0.8</priority>
   </url>
 

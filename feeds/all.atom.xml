@@ -1,32 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Darren Sholes</title><link href="https://dsholes.github.io/" rel="alternate"></link><link href="https://dsholes.github.io/feeds/all.atom.xml" rel="self"></link><id>https://dsholes.github.io/</id><updated>2019-01-01T04:00:00+01:00</updated><entry><title>Write your first Python program</title><link href="https://dsholes.github.io/notebook/write-your-first-python-program" rel="alternate"></link><published>2019-01-01T04:00:00+01:00</published><updated>2019-01-01T04:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-01-01:/notebook/write-your-first-python-program</id><summary type="html">
-In the last post, we ran some very basic python code directly in a python interactive session. But what would a more realistic example of python code look like? To make our lives easier, the most basic thing we need is a text editor (not a word processor). This will allow us to write and save python code as a file with a &lt;code&gt;.py&lt;/code&gt; file extension (e.g. &lt;code&gt;example_script.py&lt;/code&gt;).
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Darren Sholes</title><link href="https://dsholes.github.io/" rel="alternate"></link><link href="https://dsholes.github.io/feeds/all.atom.xml" rel="self"></link><id>https://dsholes.github.io/</id><updated>2019-12-31T23:59:00+01:00</updated><entry><title>Deployable De-orbit System for Small Satellites</title><link href="https://dsholes.github.io/notebook/deployable-de-orbit-system-for-small-satellites" rel="alternate"></link><published>2019-12-31T23:59:00+01:00</published><updated>2019-12-31T23:59:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-12-31:/notebook/deployable-de-orbit-system-for-small-satellites</id><summary type="html">
+
+&lt;p&gt;I designed a de-orbit system for small satellites to address the growing space debris problem in the Low Earth Orbit regime.  It is a passive deployable dragsail, to be triggered at the end of a satellite's mission. A prototype (NABEO), developed in collaboration with HPS GmbH, was launched on RocketLab's It's Business Time first commercial rocket. The next iteration, LOKI, is currently undergoing qualification, and will be tested onboard ERNST, a 12U nanosatellite, expected to launch in 2021.
+</summary><content type="html">
+
+&lt;p&gt;I designed a de-orbit system for small satellites to address the growing space debris problem in the Low Earth Orbit regime.  It is a passive deployable dragsail, to be triggered at the end of a satellite's mission. A prototype (NABEO), developed in collaboration with HPS GmbH, was launched on RocketLab's It's Business Time first commercial rocket. The next iteration, LOKI, is currently undergoing qualification, and will be tested onboard ERNST, a 12U nanosatellite, expected to launch in 2021.
+&lt;/p&gt;
+&lt;p&gt;I published a &lt;a href="https://dsholes.github.io/pdfs/14G02_sholes_deorbit.pdf"&gt;conference paper&lt;/a&gt; and presented results related to the design and development.&lt;/p&gt;
+&lt;p&gt;See videos of LOKI deploying below:&lt;/p&gt;
+&lt;video style="border-radius:15px;"muted width="100%" controls&gt;
+  &lt;source src="https://dsholes.github.io/images/deorbit_system_portfolio.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;</content><category term="portfolio"></category><category term="space-origami"></category><category term="deorbit-dragsail"></category><category term="nanosatellite"></category><category term="deployable-mechanism"></category></entry><entry><title>Warpdrive: Python audio sync tool using Dynamic Time Warping</title><link href="https://dsholes.github.io/notebook/warpdrive-python-audio-sync-tool-using-dynamic-time-warping" rel="alternate"></link><published>2019-12-31T23:00:00+01:00</published><updated>2019-12-31T23:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-12-31:/notebook/warpdrive-python-audio-sync-tool-using-dynamic-time-warping</id><summary type="html">
+
+&lt;p&gt;I developed a command line tool, &lt;code&gt;warpdrive&lt;/code&gt; for syncing and aligning audio recorded from multiple sources. The tool leverages the Dynamic Time Warping (DTW) implementation found in the &lt;code&gt;librosa&lt;/code&gt; library. I used this tool while recording a demo album with four upcycled smarphones.
+</summary><content type="html">
+
+&lt;p&gt;I developed a command line tool, &lt;code&gt;warpdrive&lt;/code&gt; for syncing and aligning audio recorded from multiple sources. The tool leverages the Dynamic Time Warping (DTW) implementation found in the &lt;code&gt;librosa&lt;/code&gt; library. I used this tool while recording a demo album with four upcycled smarphones.
+&lt;/p&gt;
+&lt;p&gt;I use the output from the DTW to build a psuedo-histogram of time offsets between chroma features of the various recordings. I then choose a base signal and pad the rest of the signals with the appropriate time delay to align all signals. See the source code &lt;a href="https://github.com/dsholes/python-warpdrive"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See an example below:&lt;/p&gt;
+&lt;video style="border-radius:15px;"muted width="100%" controls&gt;
+  &lt;source src="https://dsholes.github.io/images/warpdrive_example.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;</content><category term="portfolio"></category><category term="python"></category><category term="signal-processing"></category><category term="music"></category></entry><entry><title>Particle Image Velocimetry Flame Brush Detection Tool</title><link href="https://dsholes.github.io/notebook/particle-image-velocimetry-flame-brush-detection-tool" rel="alternate"></link><published>2019-12-31T22:00:00+01:00</published><updated>2019-12-31T22:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-12-31:/notebook/particle-image-velocimetry-flame-brush-detection-tool</id><summary type="html">
+
+&lt;p&gt;I developed a feature detection tool with Python OpenCV to analyze Particle Image Velocimetry (PIV) data of a low-emission, fuel flexible gas burner. The tool was used to detect different features of the flame brush in order to characterize a scaled version of the Low-Swirl Burner, developed at Lawrence Berkeley National Laboratory. See the source code &lt;a href="https://github.com/dsholes/python-piv"&gt;here&lt;/a&gt;.
+</summary><content type="html">
+
+&lt;p&gt;I developed a feature detection tool with Python OpenCV to analyze Particle Image Velocimetry (PIV) data of a low-emission, fuel flexible gas burner. The tool was used to detect different features of the flame brush in order to characterize a scaled version of the Low-Swirl Burner, developed at Lawrence Berkeley National Laboratory. See the source code &lt;a href="https://github.com/dsholes/python-piv"&gt;here&lt;/a&gt;.
+&lt;/p&gt;</content><category term="portfolio"></category><category term="python"></category><category term="image-processing"></category><category term="combustion"></category><category term="piv"></category><category term="open-cv"></category></entry><entry><title>Low Emission Lean Combustor</title><link href="https://dsholes.github.io/notebook/low-emission-lean-combustor" rel="alternate"></link><published>2019-12-31T21:00:00+01:00</published><updated>2019-12-31T21:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-12-31:/notebook/low-emission-lean-combustor</id><summary type="html">
+
+&lt;p&gt;I scaled and optimized the design of a low-emission, natural draft gas burner, developed at Lawrence Berkeley National Laboratory. The burner (&lt;a href="https://patents.google.com/patent/US20180224120A1/en?inventor=darren+sholes&amp;amp;oq=darren+sholes"&gt;patent pending&lt;/a&gt;) can be used in small scale thermal power applications, such as residential appliances. See the report on design and development &lt;a href="https://eta.lbl.gov/sites/all/files/publications/lbnl-1006345.pdf"&gt;here&lt;/a&gt;.
+</summary><content type="html">
+
+&lt;p&gt;I scaled and optimized the design of a low-emission, natural draft gas burner, developed at Lawrence Berkeley National Laboratory. The burner (&lt;a href="https://patents.google.com/patent/US20180224120A1/en?inventor=darren+sholes&amp;amp;oq=darren+sholes"&gt;patent pending&lt;/a&gt;) can be used in small scale thermal power applications, such as residential appliances. See the report on design and development &lt;a href="https://eta.lbl.gov/sites/all/files/publications/lbnl-1006345.pdf"&gt;here&lt;/a&gt;.
+&lt;/p&gt;</content><category term="portfolio"></category><category term="grid-burner"></category><category term="low-emission"></category></entry><entry><title>Low Cost Heliostats</title><link href="https://dsholes.github.io/notebook/low-cost-heliostats" rel="alternate"></link><published>2019-12-31T20:00:00+01:00</published><updated>2019-12-31T20:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-12-31:/notebook/low-cost-heliostats</id><summary type="html">
+
+&lt;p&gt;I designed, built and tested lightweight, low-cost heliostats for LightManufacturing Systems, a solar start-up on the Central Coast of California.
+</summary><content type="html">
+
+&lt;p&gt;I designed, built and tested lightweight, low-cost heliostats for LightManufacturing Systems, a solar start-up on the Central Coast of California.
+&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Io9iwAmu9ns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="portfolio"></category><category term="heliostat"></category><category term="solar"></category><category term="renewable-energy"></category></entry><entry><title>Pocket Guitar Amplifier (Little Gem)</title><link href="https://dsholes.github.io/notebook/pocket-guitar-amplifier-little-gem" rel="alternate"></link><published>2019-12-31T19:00:00+01:00</published><updated>2019-12-31T19:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-12-31:/notebook/pocket-guitar-amplifier-little-gem</id><summary type="html">
+
+&lt;p&gt;I built a slightly modified version of the &lt;a href="https://www.electrosmash.com/little-gem-analysis"&gt;Little Gem&lt;/a&gt; pocket amp to bring with me when I moved from California to Germany. I wanted something portable to use with headphones while I settled into a new home. The case is an old Altoid's container, to keep my riffs minty fresh.
+</summary><content type="html">
+
+&lt;p&gt;I built a slightly modified version of the &lt;a href="https://www.electrosmash.com/little-gem-analysis"&gt;Little Gem&lt;/a&gt; pocket amp to bring with me when I moved from California to Germany. I wanted something portable to use with headphones while I settled into a new home. The case is an old Altoid's container, to keep my riffs minty fresh.
+&lt;/p&gt;
+&lt;p&gt;The only knobs are for Volume and Gain, to add a bit of crunch.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pocket amp knobs" src="https://dsholes.github.io/images/pocket_amp_2.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pocket amp breadboard" src="https://dsholes.github.io/images/pocket_amp_3.png"&gt;&lt;/p&gt;</content><category term="portfolio"></category><category term="amp"></category><category term="guitar"></category></entry><entry><title>U.S. Manufacturing Water Analysis with County-Level Resolution</title><link href="https://dsholes.github.io/notebook/us-manufacturing-water-analysis-with-county-level-resolution" rel="alternate"></link><published>2019-12-31T18:00:00+01:00</published><updated>2019-12-31T18:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-12-31:/notebook/us-manufacturing-water-analysis-with-county-level-resolution</id><summary type="html">
+
+&lt;p&gt;I co-developed a methodology for estimating U.S. manufacturing water use at various spatial and sectoral resolutions. I wrote the code to perform the data analysis using &lt;code&gt;pandas&lt;/code&gt; and used a combination of &lt;code&gt;plotly&lt;/code&gt; and custom plotting tools to create interactive visualizations. The results &lt;a href="https://pubs.acs.org/doi/10.1021/acs.est.8b04896"&gt;were published in &lt;em&gt;Environmental Science and Technology&lt;/em&gt;&lt;/a&gt;, an American Chemical Society publication.
+</summary><content type="html">
+
+&lt;p&gt;I co-developed a methodology for estimating U.S. manufacturing water use at various spatial and sectoral resolutions. I wrote the code to perform the data analysis using &lt;code&gt;pandas&lt;/code&gt; and used a combination of &lt;code&gt;plotly&lt;/code&gt; and custom plotting tools to create interactive visualizations. The results &lt;a href="https://pubs.acs.org/doi/10.1021/acs.est.8b04896"&gt;were published in &lt;em&gt;Environmental Science and Technology&lt;/em&gt;&lt;/a&gt;, an American Chemical Society publication.
+&lt;/p&gt;</content><category term="portfolio"></category><category term="water"></category><category term="data"></category><category term="gis"></category></entry><entry><title>Python for Everyone: Introduction</title><link href="https://dsholes.github.io/notebook/python-for-everyone-introduction" rel="alternate"></link><published>2019-11-30T23:59:00+01:00</published><updated>2019-11-30T23:59:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-11-30:/notebook/python-for-everyone-introduction</id><summary type="html">
+If you're here, then I probably don't need to convince you to learn Python. It's powerful, it's flexible, it's open source and free (as in $0), and there are thousands of resources available on the interwebs for learning it.
 </summary><content type="html">&lt;h1 id="background"&gt;Background&lt;/h1&gt;
 &lt;p&gt;
-In the last post, we ran some very basic python code directly in a python interactive session. But what would a more realistic example of python code look like? To make our lives easier, the most basic thing we need is a text editor (not a word processor). This will allow us to write and save python code as a file with a &lt;code&gt;.py&lt;/code&gt; file extension (e.g. &lt;code&gt;example_script.py&lt;/code&gt;).
+If you're here, then I probably don't need to convince you to learn Python. It's powerful, it's flexible, it's open source and free (as in $0), and there are thousands of resources available on the interwebs for learning it.
 &lt;/p&gt;
-&lt;h1 id="pick-a-text-editor"&gt;Pick a text editor&lt;/h1&gt;
-&lt;p&gt;We could just use &lt;code&gt;Notepad&lt;/code&gt; on Windows, &lt;code&gt;TextEdit&lt;/code&gt; on Mac or the built in editor on Linux. But there are fancier text editors out there that use syntax highlighting and formatting to make it easier to read our code. Choose whatever text editor you want. &lt;/p&gt;
-&lt;p&gt;Two free, cross-platform options are VS Code and Atom. VS Code was created by Microsoft. Atom was created by Github, which is now owned by Microsoft. To be extra confusing and hip, I currently use &lt;a href="https://vscodium.com/"&gt;VS Codium&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;If you don't care (you shouldn't), download and install &lt;a href="https://code.visualstudio.com/"&gt;VS Code&lt;/a&gt;. Then install the Python Extension for VS Code, to get syntax highlighting and other useful tools.&lt;/p&gt;
-&lt;h1 id="create-a-py-file"&gt;Create a &lt;code&gt;.py&lt;/code&gt; file&lt;/h1&gt;
-&lt;p&gt;Once you have a text editor installed, open it and create a new file. Save it with the &lt;code&gt;.py&lt;/code&gt; file extension. When choosing a filename, I recommend keeping it short, and all lowercase. Use underscores if it improves readability (e.g. &lt;code&gt;example_script.py&lt;/code&gt; is preferred, as opposed to &lt;code&gt;examplescript.py&lt;/code&gt; or &lt;code&gt;Example Script.py&lt;/code&gt;). I'll call mine &lt;code&gt;my_first.py&lt;/code&gt;. You can save it wherever you want.&lt;/p&gt;
-&lt;h1 id="stay-organized"&gt;Stay organized&lt;/h1&gt;
-&lt;p&gt;To stay organized, I recommend the following folder structure. Pick a location that you want to save all your scripts (e.g. your local home folder, &lt;code&gt;/home/yourname&lt;/code&gt; in Linux, &lt;code&gt;C:\Users\yourname\&lt;/code&gt; on Windows, or a folder on a network drive that gets backed up).&lt;/p&gt;
-&lt;p&gt;Now create a new folder in that location named &lt;code&gt;repos&lt;/code&gt;. Repos is short for Repositories, and this folder structure will be useful when we talk about &lt;code&gt;git&lt;/code&gt; (in the future). Within &lt;code&gt;repos&lt;/code&gt; create another folder named &lt;code&gt;python-examples&lt;/code&gt;. The folder path will now look something like &lt;code&gt;C:\Users\user\repos\python-examples&lt;/code&gt;. By the way, I will use the words &lt;em&gt;folder&lt;/em&gt; and &lt;em&gt;directory&lt;/em&gt; interchangeably.&lt;/p&gt;
-&lt;p&gt;Save or copy &lt;code&gt;my_first.py&lt;/code&gt; into &lt;code&gt;python-examples&lt;/code&gt; for now. Open &lt;code&gt;my_first.py&lt;/code&gt; and copy-paste the following lines:&lt;/p&gt;
-&lt;pre class="codehilite"&gt;&lt;code class="language-python"&gt;x = 1
-y = 2
-z = x + y
-print(z)&lt;/code&gt;&lt;/pre&gt;
-
-
-&lt;p&gt;Save &lt;code&gt;my_first.py&lt;/code&gt;.&lt;/p&gt;
-&lt;h1 id="run-my_firstpy"&gt;Run &lt;code&gt;my_first.py&lt;/code&gt;&lt;/h1&gt;
-&lt;p&gt;Open the command line. At this point, we can run &lt;code&gt;my_first.py&lt;/code&gt; a couple of different ways. &lt;/p&gt;
-&lt;p&gt;The first option does not require us to change the command line to the &lt;code&gt;python-examples&lt;/code&gt; directory. Type &lt;code&gt;python&lt;/code&gt; &lt;strong&gt;with a space after it&lt;/strong&gt; and drag &lt;code&gt;my_first.py&lt;/code&gt; onto the command line. This will copy the full path to the file. If you hit enter, the code in &lt;code&gt;my_first.py&lt;/code&gt; will run.&lt;/p&gt;
-&lt;p&gt;For the second option, we need to &lt;code&gt;cd&lt;/code&gt; into the &lt;code&gt;python-examples&lt;/code&gt; directory. If you don't know what that means, give it a quick google. After you &lt;code&gt;cd&lt;/code&gt; into the same directory as &lt;code&gt;my_first.py&lt;/code&gt;, you can simply type &lt;code&gt;python my_first.py&lt;/code&gt; and hit enter.&lt;/p&gt;
-&lt;p&gt;The important takeaway is that &lt;code&gt;python&lt;/code&gt; needs to know exactly where the file is located before it can run it. That means you can either tell it the &lt;em&gt;absolute&lt;/em&gt; path of the file, OR you can move the command line to where the file is located and tell python the &lt;em&gt;relative&lt;/em&gt; path to the file.&lt;/p&gt;</content><category term="python-for-everyone"></category><category term="vs-code"></category><category term="atom"></category></entry><entry><title>Run your first Python code</title><link href="https://dsholes.github.io/notebook/run-your-first-python-code" rel="alternate"></link><published>2019-01-01T03:00:00+01:00</published><updated>2019-01-01T03:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-01-01:/notebook/run-your-first-python-code</id><summary type="html">
+&lt;p&gt;If you've been wanting to learn how to program, or need something more powerful than Excel, or something that's not Matlab, then Python's probably a good choice. If you've ever used formulas in Excel, written a script of any kind, or can grasp the most basic concepts from Algebra, then you can learn Python.&lt;/p&gt;
+&lt;p&gt;This guide is meant to help you start from ground zero. Just the bare essentials, so that you can start doing something useful in as little time as possible. The hope is that you feel empowered to use Python to make your work/life easier.&lt;/p&gt;
+&lt;p&gt;You can learn this. It's not hard. It's like learning anything else. You are a completely capable, wonderful human. If you get stuck, Google is your best friend, followed by Stackoverflow.&lt;/p&gt;
+&lt;h1 id="the-steps"&gt;The Steps:&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://dsholes.github.io/notebook/install-python-on-your-computer"&gt;Install Python on your computer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://dsholes.github.io/notebook/run-your-first-python-code"&gt;Run your first Python code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://dsholes.github.io/notebook/write-your-first-python-program"&gt;Write your first Python program&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://dsholes.github.io/drafts/interact-with-data-files.html"&gt;Interact with data files&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><category term="python-for-everyone"></category><category term="python-introduction"></category><category term="python"></category></entry><entry><title>Install Python on your computer</title><link href="https://dsholes.github.io/notebook/install-python-on-your-computer" rel="alternate"></link><published>2019-11-30T23:00:00+01:00</published><updated>2019-11-30T23:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-11-30:/notebook/install-python-on-your-computer</id><summary type="html">
+Before you can run any Python code, you have to install a Python interpreter on your computer. The interpreter is what reads, translates, and executes your Python code (which is just a text file with a &lt;code&gt;.py&lt;/code&gt; extension). At this point that's the most you need to know. Don't get bogged down in the technical jargon for now.
+</summary><content type="html">&lt;h1 id="background"&gt;Background&lt;/h1&gt;
+&lt;p&gt;
+Before you can run any Python code, you have to install a Python interpreter on your computer. The interpreter is what reads, translates, and executes your Python code (which is just a text file with a &lt;code&gt;.py&lt;/code&gt; extension). At this point that's the most you need to know. Don't get bogged down in the technical jargon for now.
+&lt;/p&gt;
+&lt;p&gt;Python, like any language or piece of software, is constantly evolving, so there are a bunch of versions floating around. There are a few differences between Python 2 and Python 3. I recommend you learn Python 3. The latest version distributed with Miniconda as of August 2019 is Python 3.7.&lt;/p&gt;
+&lt;p&gt;Because Python is open source, there are many people/organizations that offer &lt;strong&gt;&lt;a href="https://www.infoworld.com/article/3267976/anaconda-cpython-pypy-and-more-know-your-python-distributions.html"&gt;distributions&lt;/a&gt;&lt;/strong&gt; of it. We'll use the Anaconda distribution. I use the Anaconda distribution (specifically Miniconda) because it uses the package manager &lt;code&gt;conda&lt;/code&gt;, which allows you to easily install Python packages, as well as create and manage Python environments. We'll discuss what those are and why that's valuable later. For now, let's just get to the good stuff.&lt;/p&gt;
+&lt;h1 id="download-and-install-miniconda"&gt;Download and install &lt;code&gt;miniconda&lt;/code&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to the &lt;a href="https://docs.conda.io/en/latest/miniconda.html"&gt;Miniconda download page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download the installer for the latest version of Python 3 for your operating system (Windows, macOS or Linux) and &lt;a href="https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq"&gt;CPU architecture&lt;/a&gt; (32 vs 64-bit).&lt;/li&gt;
+&lt;li&gt;Follow the instructions on the installer. For detailed instructions, see &lt;a href="https://conda.io/projects/conda/en/latest/user-guide/install/index.html"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Windows Tip&lt;/strong&gt;: Make sure you allow the installer to add Python to your PATH environment variable, and install the single user version (especially if you don't have Admin rights on your machine).&lt;/p&gt;
+&lt;h1 id="test-that-it-worked"&gt;Test that it worked&lt;/h1&gt;
+&lt;p&gt;Open the command line. On Windows open the &lt;code&gt;Command Prompt&lt;/code&gt;, and on macOS open &lt;code&gt;Terminal&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Type &lt;code&gt;conda info&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="conda-test-install" src="https://dsholes.github.io/images/conda_test_install.PNG"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Type &lt;code&gt;python&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="python-test-install" src="https://dsholes.github.io/images/python_test_install.png"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="issues"&gt;Issues?&lt;/h1&gt;
+&lt;p&gt;Hopefully, the two commands above didn't produce any error messages. If they did, copy-paste the message into Google. You will find the answer ;).&lt;/p&gt;
+&lt;p&gt;If you get a message like &lt;code&gt;python&lt;/code&gt; or &lt;code&gt;conda&lt;/code&gt; command not recognized, then you most likely need to add your miniconda3 installation to your system Path.&lt;/p&gt;
+&lt;p&gt;By the way, learning a bit about the command line (Terminal/PowerShell) will be helpful as you start programming more. If you're interested in some details you can read this &lt;a href="https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101"&gt;primer for command line&lt;/a&gt;.  &lt;/p&gt;
+&lt;p&gt;Hopefully that wasn't too painful, and everything worked as expected. Let's &lt;a href="https://dsholes.github.io/notebook/run-your-first-python-code"&gt;run your first Python code&lt;/a&gt;.&lt;/p&gt;</content><category term="python-for-everyone"></category><category term="install"></category><category term="miniconda"></category><category term="anaconda"></category><category term="conda"></category></entry><entry><title>Run your first Python code</title><link href="https://dsholes.github.io/notebook/run-your-first-python-code" rel="alternate"></link><published>2019-11-30T22:00:00+01:00</published><updated>2019-11-30T22:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-11-30:/notebook/run-your-first-python-code</id><summary type="html">
 At this point you have successfully &lt;a href="https://dsholes.github.io/notebook/install-python-on-your-computer"&gt;installed Python on your computer&lt;/a&gt; using the Miniconda distribution. You're ready to run some Python code.
 </summary><content type="html">&lt;h1 id="background"&gt;Background&lt;/h1&gt;
 &lt;p&gt;
@@ -68,50 +149,31 @@ At this point you have successfully &lt;a href="https://dsholes.github.io/notebo
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;You've run your first python code! See, not so scary. One thing you may notice is there's no way to save the code that you've just written.&lt;/p&gt;
-&lt;p&gt;In the next post, we'll cover a more realistic/useful way to write, save and execute python code.&lt;/p&gt;</content><category term="python"></category><category term="python-for-everyone"></category></entry><entry><title>Install Python on your computer</title><link href="https://dsholes.github.io/notebook/install-python-on-your-computer" rel="alternate"></link><published>2019-01-01T02:00:00+01:00</published><updated>2019-01-01T02:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-01-01:/notebook/install-python-on-your-computer</id><summary type="html">
-Before you can run any Python code, you have to install a Python interpreter on your computer. The interpreter is what reads, translates, and executes your Python code (which is just a text file with a &lt;code&gt;.py&lt;/code&gt; extension). At this point that's the most you need to know. Don't get bogged down in the technical jargon for now.
+&lt;p&gt;In the next post, we'll cover a more realistic/useful way to write, save and execute python code.&lt;/p&gt;</content><category term="python"></category><category term="python-for-everyone"></category></entry><entry><title>Write your first Python program</title><link href="https://dsholes.github.io/notebook/write-your-first-python-program" rel="alternate"></link><published>2019-11-30T21:00:00+01:00</published><updated>2019-11-30T21:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-11-30:/notebook/write-your-first-python-program</id><summary type="html">
+In the last post, we ran some very basic python code directly in a python interactive session. But what would a more realistic example of python code look like? To make our lives easier, the most basic thing we need is a text editor (not a word processor). This will allow us to write and save python code as a file with a &lt;code&gt;.py&lt;/code&gt; file extension (e.g. &lt;code&gt;example_script.py&lt;/code&gt;).
 </summary><content type="html">&lt;h1 id="background"&gt;Background&lt;/h1&gt;
 &lt;p&gt;
-Before you can run any Python code, you have to install a Python interpreter on your computer. The interpreter is what reads, translates, and executes your Python code (which is just a text file with a &lt;code&gt;.py&lt;/code&gt; extension). At this point that's the most you need to know. Don't get bogged down in the technical jargon for now.
+In the last post, we ran some very basic python code directly in a python interactive session. But what would a more realistic example of python code look like? To make our lives easier, the most basic thing we need is a text editor (not a word processor). This will allow us to write and save python code as a file with a &lt;code&gt;.py&lt;/code&gt; file extension (e.g. &lt;code&gt;example_script.py&lt;/code&gt;).
 &lt;/p&gt;
-&lt;p&gt;Python, like any language or piece of software, is constantly evolving, so there are a bunch of versions floating around. There are a few differences between Python 2 and Python 3. I recommend you learn Python 3. The latest version distributed with Miniconda as of August 2019 is Python 3.7.&lt;/p&gt;
-&lt;p&gt;Because Python is open source, there are many people/organizations that offer &lt;strong&gt;&lt;a href="https://www.infoworld.com/article/3267976/anaconda-cpython-pypy-and-more-know-your-python-distributions.html"&gt;distributions&lt;/a&gt;&lt;/strong&gt; of it. We'll use the Anaconda distribution. I use the Anaconda distribution (specifically Miniconda) because it uses the package manager &lt;code&gt;conda&lt;/code&gt;, which allows you to easily install Python packages, as well as create and manage Python environments. We'll discuss what those are and why that's valuable later. For now, let's just get to the good stuff.&lt;/p&gt;
-&lt;h1 id="download-and-install-miniconda"&gt;Download and install &lt;code&gt;miniconda&lt;/code&gt;&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Go to the &lt;a href="https://docs.conda.io/en/latest/miniconda.html"&gt;Miniconda download page&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Download the installer for the latest version of Python 3 for your operating system (Windows, macOS or Linux) and &lt;a href="https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq"&gt;CPU architecture&lt;/a&gt; (32 vs 64-bit).&lt;/li&gt;
-&lt;li&gt;Follow the instructions on the installer. For detailed instructions, see &lt;a href="https://conda.io/projects/conda/en/latest/user-guide/install/index.html"&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Windows Tip&lt;/strong&gt;: Make sure you allow the installer to add Python to your PATH environment variable, and install the single user version (especially if you don't have Admin rights on your machine).&lt;/p&gt;
-&lt;h1 id="test-that-it-worked"&gt;Test that it worked&lt;/h1&gt;
-&lt;p&gt;Open the command line. On Windows open the &lt;code&gt;Command Prompt&lt;/code&gt;, and on macOS open &lt;code&gt;Terminal&lt;/code&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Type &lt;code&gt;conda info&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="conda-test-install" src="https://dsholes.github.io/images/conda_test_install.PNG"&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Type &lt;code&gt;python&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="python-test-install" src="https://dsholes.github.io/images/python_test_install.png"&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id="issues"&gt;Issues?&lt;/h1&gt;
-&lt;p&gt;Hopefully, the two commands above didn't produce any error messages. If they did, copy-paste the message into Google. You will find the answer ;).&lt;/p&gt;
-&lt;p&gt;If you get a message like &lt;code&gt;python&lt;/code&gt; or &lt;code&gt;conda&lt;/code&gt; command not recognized, then you most likely need to add your miniconda3 installation to your system Path.&lt;/p&gt;
-&lt;p&gt;By the way, learning a bit about the command line (Terminal/PowerShell) will be helpful as you start programming more. If you're interested in some details you can read this &lt;a href="https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101"&gt;primer for command line&lt;/a&gt;.  &lt;/p&gt;
-&lt;p&gt;Hopefully that wasn't too painful, and everything worked as expected. Let's &lt;a href="https://dsholes.github.io/notebook/run-your-first-python-code"&gt;run your first Python code&lt;/a&gt;.&lt;/p&gt;</content><category term="python-for-everyone"></category><category term="install"></category><category term="miniconda"></category><category term="anaconda"></category><category term="conda"></category></entry><entry><title>Python for Everyone: Introduction</title><link href="https://dsholes.github.io/notebook/python-for-everyone-introduction" rel="alternate"></link><published>2019-01-01T01:00:00+01:00</published><updated>2019-01-01T01:00:00+01:00</updated><author><name>Darren Sholes</name></author><id>tag:dsholes.github.io,2019-01-01:/notebook/python-for-everyone-introduction</id><summary type="html">
-If you're here, then I probably don't need to convince you to learn Python. It's powerful, it's flexible, it's open source and free (as in $0), and there are thousands of resources available on the interwebs for learning it.
-</summary><content type="html">&lt;h1 id="background"&gt;Background&lt;/h1&gt;
-&lt;p&gt;
-If you're here, then I probably don't need to convince you to learn Python. It's powerful, it's flexible, it's open source and free (as in $0), and there are thousands of resources available on the interwebs for learning it.
-&lt;/p&gt;
-&lt;p&gt;If you've been wanting to learn how to program, or need something more powerful than Excel, or something that's not Matlab, then Python's probably a good choice. If you've ever used formulas in Excel, written a script of any kind, or can grasp the most basic concepts from Algebra, then you can learn Python.&lt;/p&gt;
-&lt;p&gt;This guide is meant to help you start from ground zero. Just the bare essentials, so that you can start doing something useful in as little time as possible. The hope is that you feel empowered to use Python to make your work/life easier.&lt;/p&gt;
-&lt;p&gt;You can learn this. It's not hard. It's like learning anything else. You are a completely capable, wonderful human. If you get stuck, Google is your best friend, followed by Stackoverflow.&lt;/p&gt;
-&lt;h1 id="the-steps"&gt;The Steps:&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href="https://dsholes.github.io/notebook/install-python-on-your-computer"&gt;Install Python on your computer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://dsholes.github.io/notebook/run-your-first-python-code"&gt;Run your first Python code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://dsholes.github.io/notebook/write-your-first-python-program"&gt;Write your first Python program&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://dsholes.github.io/drafts/interact-with-data-files.html"&gt;Interact with data files&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><category term="python-for-everyone"></category><category term="python-introduction"></category><category term="python"></category></entry></feed>
+&lt;h1 id="pick-a-text-editor"&gt;Pick a text editor&lt;/h1&gt;
+&lt;p&gt;We could just use &lt;code&gt;Notepad&lt;/code&gt; on Windows, &lt;code&gt;TextEdit&lt;/code&gt; on Mac or the built in editor on Linux. But there are fancier text editors out there that use syntax highlighting and formatting to make it easier to read our code. Choose whatever text editor you want. &lt;/p&gt;
+&lt;p&gt;Two free, cross-platform options are VS Code and Atom. VS Code was created by Microsoft. Atom was created by Github, which is now owned by Microsoft. To be extra confusing and hip, I currently use &lt;a href="https://vscodium.com/"&gt;VS Codium&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;If you don't care (you shouldn't), download and install &lt;a href="https://code.visualstudio.com/"&gt;VS Code&lt;/a&gt;. Then install the Python Extension for VS Code, to get syntax highlighting and other useful tools.&lt;/p&gt;
+&lt;h1 id="create-a-py-file"&gt;Create a &lt;code&gt;.py&lt;/code&gt; file&lt;/h1&gt;
+&lt;p&gt;Once you have a text editor installed, open it and create a new file. Save it with the &lt;code&gt;.py&lt;/code&gt; file extension. When choosing a filename, I recommend keeping it short, and all lowercase. Use underscores if it improves readability (e.g. &lt;code&gt;example_script.py&lt;/code&gt; is preferred, as opposed to &lt;code&gt;examplescript.py&lt;/code&gt; or &lt;code&gt;Example Script.py&lt;/code&gt;). I'll call mine &lt;code&gt;my_first.py&lt;/code&gt;. You can save it wherever you want.&lt;/p&gt;
+&lt;h1 id="stay-organized"&gt;Stay organized&lt;/h1&gt;
+&lt;p&gt;To stay organized, I recommend the following folder structure. Pick a location that you want to save all your scripts (e.g. your local home folder, &lt;code&gt;/home/yourname&lt;/code&gt; in Linux, &lt;code&gt;C:\Users\yourname\&lt;/code&gt; on Windows, or a folder on a network drive that gets backed up).&lt;/p&gt;
+&lt;p&gt;Now create a new folder in that location named &lt;code&gt;repos&lt;/code&gt;. Repos is short for Repositories, and this folder structure will be useful when we talk about &lt;code&gt;git&lt;/code&gt; (in the future). Within &lt;code&gt;repos&lt;/code&gt; create another folder named &lt;code&gt;python-examples&lt;/code&gt;. The folder path will now look something like &lt;code&gt;C:\Users\user\repos\python-examples&lt;/code&gt;. By the way, I will use the words &lt;em&gt;folder&lt;/em&gt; and &lt;em&gt;directory&lt;/em&gt; interchangeably.&lt;/p&gt;
+&lt;p&gt;Save or copy &lt;code&gt;my_first.py&lt;/code&gt; into &lt;code&gt;python-examples&lt;/code&gt; for now. Open &lt;code&gt;my_first.py&lt;/code&gt; and copy-paste the following lines:&lt;/p&gt;
+&lt;pre class="codehilite"&gt;&lt;code class="language-python"&gt;x = 1
+y = 2
+z = x + y
+print(z)&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Save &lt;code&gt;my_first.py&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id="run-my_firstpy"&gt;Run &lt;code&gt;my_first.py&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;Open the command line. At this point, we can run &lt;code&gt;my_first.py&lt;/code&gt; a couple of different ways. &lt;/p&gt;
+&lt;p&gt;The first option does not require us to change the command line to the &lt;code&gt;python-examples&lt;/code&gt; directory. Type &lt;code&gt;python&lt;/code&gt; &lt;strong&gt;with a space after it&lt;/strong&gt; and drag &lt;code&gt;my_first.py&lt;/code&gt; onto the command line. This will copy the full path to the file. If you hit enter, the code in &lt;code&gt;my_first.py&lt;/code&gt; will run.&lt;/p&gt;
+&lt;p&gt;For the second option, we need to &lt;code&gt;cd&lt;/code&gt; into the &lt;code&gt;python-examples&lt;/code&gt; directory. If you don't know what that means, give it a quick google. After you &lt;code&gt;cd&lt;/code&gt; into the same directory as &lt;code&gt;my_first.py&lt;/code&gt;, you can simply type &lt;code&gt;python my_first.py&lt;/code&gt; and hit enter.&lt;/p&gt;
+&lt;p&gt;The important takeaway is that &lt;code&gt;python&lt;/code&gt; needs to know exactly where the file is located before it can run it. That means you can either tell it the &lt;em&gt;absolute&lt;/em&gt; path of the file, OR you can move the command line to where the file is located and tell python the &lt;em&gt;relative&lt;/em&gt; path to the file.&lt;/p&gt;</content><category term="python-for-everyone"></category><category term="vs-code"></category><category term="atom"></category></entry></feed>
